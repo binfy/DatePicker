@@ -52,6 +52,6 @@ DatePicker分为四个mode：YMDhms（年月日时分秒）、YMD（年月日）
 <p align="center">
 	<img src="https://github.com/binfy/DatePicker/blob/master/images/10311557474243_.pic_hd.jpg " alt="Sample"  width="250" height="250">
 	<p align="center">
-		<em>有人说可以去买个奶茶</em>
+		<em>有人说可以去买杯奶茶</em>
 	</p>
 </p>
