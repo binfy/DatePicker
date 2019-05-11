@@ -1,0 +1,28 @@
+<view class='form-list-item' bindtap='onYMDhms'>
+
+  <view class='form-item-name'>模式(YMDhms)</view>
+  <text class='form-item-content color-desc'>{{yMDhms}}</text>
+  <image class='form-left-arrow' mode='aspectFit' src='/images/left_icon.png'></image>
+</view>
+<view class='form-list-item'  bindtap='onYMD'>
+
+  <view class='form-item-name'>模式(YMD)</view>
+  <text class='form-item-content color-desc'>{{yMD}}</text>
+  <image class='form-left-arrow' mode='aspectFit' src='/images/left_icon.png'></image>
+</view>
+<view class='form-list-item' bindtap='onMD'>
+
+  <view class='form-item-name' >模式(MD)</view>
+  <text class='form-item-content color-desc'>{{mD}}</text>
+  <image class='form-left-arrow' mode='aspectFit' src='/images/left_icon.png'></image>
+</view>
+<view class='form-list-item' bindtap='onHm'>
+
+  <view class='form-item-name' >模式(hm)</view>
+  <text class='form-item-content color-desc'>{{hm}}</text>
+  <image class='form-left-arrow' mode='aspectFit' src='/images/left_icon.png'></image>
+</view>
+
+<date-picker bind:datePickerCancellEvent="datePickerCancellEvent" bind:datePickerOkEvent="datePickerOkEvent" isShowDatePicker="{{isShowPicker}}" mode="{{mode}}" data="{{data}}" date="{{date}}">
+
+</date-picker>

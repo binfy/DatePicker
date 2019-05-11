@@ -1,0 +1,88 @@
+/* DatePicker/DatePicker.wxss */
+
+page {
+  width: 100%;
+  height: 100%;
+}
+
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  transition: all 300ms;
+
+}
+
+.date-picker {
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.view-hidde{
+transform: translateY(100%);
+  visibility: hidden;
+}
+
+.view-show{
+  transform: translateY(0%);
+
+  visibility:visible;
+}
+
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #f2f2f2;
+}
+
+.date-picker-c {
+  display: flex;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ok-c {
+  width: 100%;
+  height: 100rpx;
+  background-color: white;
+  display: flex;
+}
+
+.ok {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #09bb07;
+  padding-right: 40rpx;
+}
+
+.cancell {
+  width: 50%;
+  display: flex;
+  color: #b2b2b2;
+  align-items: center;
+  padding-left: 40rpx;
+}

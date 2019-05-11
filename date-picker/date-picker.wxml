@@ -1,0 +1,73 @@
+<!--DatePicker/DatePicker.wxml-->
+
+<view hidden="{{!isShowDatePicker}}" class='mask' bindtap='onCancellClick'></view>
+
+<view class="content {{isShowDatePicker?'view-show':'view-hidde'}}">
+
+  <view class='datepicker'>
+
+    <view class='ok-c'>
+
+      <view catchtap='onCancellClick' class='cancell'>取消</view>
+      <view catchtap='onOkClick' class='ok'>确定</view>
+
+    </view>
+
+    <view class='divider'>
+    </view>
+    <picker-view indicator-style="height: 50px;" style="width: 100%; height: 250px;background-color:white;font-size: 30rpx;" value="{{value}}" bindchange="bindChange">
+      <picker-view-column hidden="{{!isShowYear}}">
+        <view wx:for="{{years}}" wx:key="{{index}}" class='item'>
+          <text>{{item}}年
+    </text>
+        </view>
+
+      </picker-view-column>
+
+
+      <picker-view-column hidden="{{!isShowMonth}}">
+        <view wx:for="{{months}}" wx:key="{{index}}" class='item' style="line-height: 50px">
+          <text>{{item}}月
+    </text>
+        </view>
+      </picker-view-column>
+
+
+
+      <picker-view-column hidden="{{!isShowDay}}">
+        <view wx:for="{{days}}" wx:key="{{index}}" class='item' style="line-height: 50px">
+          <text>{{item}}日
+    </text>
+        </view>
+      </picker-view-column>
+
+
+
+      <picker-view-column hidden="{{!isShowHour}}">
+        <view wx:for="{{hours}}" wx:key="{{index}}" class='item' style="line-height: 50px">
+          <text>{{item}}时
+    </text>
+        </view>
+      </picker-view-column>
+
+
+
+      <picker-view-column hidden="{{!isShoMinutes}}">
+        <view wx:for="{{minutes}}" wx:key="{{index}}" class='item' style="line-height: 50px">
+          <text>{{item}}分
+    </text>
+        </view>
+      </picker-view-column>
+
+
+      <picker-view-column hidden="{{!isShowSeconds}}">
+        <view wx:for="{{seconds}}" wx:key="{{index}}" class='item' style="line-height: 50px">
+          <text>{{item}}秒 </text>
+        </view>
+      </picker-view-column>
+
+    </picker-view>
+  </view>
+
+
+</view>

@@ -1,0 +1,36 @@
+
+page{
+  background-color: #f2f2f2;
+}
+.form-list-item {
+  min-height: 44px;
+  background-color: #fff;
+  align-items: center;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  width: 100%;
+  margin-top: 1px;
+  display: flex;
+  flex-direction: row;
+}
+
+.form-item-name {
+  padding-left: 10px;
+  width: 90px;
+  min-width: 90px;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.form-item-content {
+  margin-right: 10px;
+  text-align: right;
+  flex-grow: 1;
+}
+.form-left-arrow {
+  width: 15px;
+  height: 15px;
+  padding-right: 10px;
+  min-width: 15px;
+  flex-shrink: 0;
+}
