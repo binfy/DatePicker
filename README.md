@@ -8,7 +8,19 @@ DatePicker分为四个mode：YMDhms（年月日时分秒）、YMD（年月日）
 # 效果图
 <div align=right>![blockchain](https://github.com/binfy/DatePicker/blob/master/images/10351557480090_.pic.jpg "年月日时分秒")
 
-<img src="https://github.com/binfy/DatePicker/blob/master/images/10361557480091_.pic.jpg" width = "50%" height = "300" div align=center/>
+
+<p align="center">
+	<img src="https://github.com/binfy/DatePicker/blob/master/images/10361557480091_.pic.jpg" alt="Sample"  width="250" height="140">
+	<p align="center">
+		<em>图片示例2</em>
+	</p>
+</p>
+
+--------------------- 
+作者：lovechris00 
+来源：CSDN 
+原文：https://blog.csdn.net/lovechris00/article/details/82379382 
+版权声明：本文为博主原创文章，转载请附上博文链接！
 - mode：YMDhms 
 ![blockchain](https://github.com/binfy/DatePicker/blob/master/images/10351557480090_.pic.jpg "年月日时分秒")
 
