@@ -6,8 +6,8 @@ DatePicker分为四个mode：YMDhms（年月日时分秒）、YMD（年月日）
 我自己觉得用起来很爽快。
 
 # 效果图
-![blockchain](https://github.com/binfy/DatePicker/blob/master/images/10361557480091_.pic.jpg "初始列表")
-<img src="https://github.com/binfy/DatePicker/blob/master/images/10361557480091_.pic.jpg" width = "100" height = "100" div align=center/>
+
+<img src="https://github.com/binfy/DatePicker/blob/master/images/10361557480091_.pic.jpg" width = "50%" height = "300" div align=center/>
 - mode：YMDhms 
 ![blockchain](https://github.com/binfy/DatePicker/blob/master/images/10351557480090_.pic.jpg "年月日时分秒")
 
