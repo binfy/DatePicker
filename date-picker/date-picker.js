@@ -10,30 +10,30 @@ const seconds = []
 
 for (let i = 1970; i <= 2100; i++) {
 
-  years.push(i)
+  years.push(i);
 }
 
 for (let i = 1; i <= 12; i++) {
 
-  months.push(i)
+  months.push(i);
 }
 
 for (let i = 1; i <= 31; i++) {
 
-  days.push(i)
+  days.push(i);
 }
 for (let i = 0; i < 24; i++) {
 
-  hours.push(i)
+  hours.push(i);
 }
 
 for (let i = 0; i < 60; i++) {
 
-  minutes.push(i)
+  minutes.push(i);
 }
 for (let i = 0; i < 60; i++) {
 
-  seconds.push(i)
+  seconds.push(i);
 }
 const modes = ["YMDhms", "YMD", "MD", "hm"]
 
