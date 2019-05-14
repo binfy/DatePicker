@@ -4,6 +4,14 @@
   <text class='form-item-content color-desc'>{{yMDhms}}</text>
   <image class='form-left-arrow' mode='aspectFit' src='/images/left_icon.png'></image>
 </view>
+
+<view class='form-list-item' bindtap='onYMDhm'>
+
+  <view class='form-item-name'>模式(YMDhm)</view>
+  <text class='form-item-content color-desc'>{{yMDhm}}</text>
+  <image class='form-left-arrow' mode='aspectFit' src='/images/left_icon.png'></image>
+</view>
+
 <view class='form-list-item'  bindtap='onYMD'>
 
   <view class='form-item-name'>模式(YMD)</view>

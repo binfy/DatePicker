@@ -35,7 +35,7 @@ for (let i = 0; i < 60; i++) {
 
   seconds.push(i);
 }
-const modes = ["YMDhms", "YMD", "MD", "hm"]
+const modes = ["YMDhms", "YMDhm", "YMD", "MD", "hm"]
 
 let beforeYear;
 let beforeMonth;
@@ -58,7 +58,7 @@ Component({
       type: String,
       value: 'MD',
       observer: function (newVal, oldVal, changedPath) {
-        debugger
+        
         this.setDateByMode();
       }
     },
@@ -145,11 +145,11 @@ Component({
 
       this.setData({
 
-        isShowYear: mode == 'YMDhms' || mode == 'YMD',
-        isShowMonth: mode == 'YMDhms' || mode == 'YMD' || mode == 'MD',
-        isShowDay: mode == 'YMDhms' || mode == 'YMD' || mode == 'MD',
-        isShowHour: mode == 'YMDhms' || mode == 'hm',
-        isShoMinutes: mode == 'YMDhms' || mode == 'hm',
+        isShowYear: mode == 'YMDhms' || mode == 'YMDhm' || mode == 'YMD',
+        isShowMonth: mode == 'YMDhms' || mode == 'YMDhm' || mode == 'YMD' || mode == 'MD',
+        isShowDay: mode == 'YMDhms' || mode == 'YMDhm' || mode == 'YMD' || mode == 'MD',
+        isShowHour: mode == 'YMDhms' || mode == 'YMDhm' || mode == 'hm',
+        isShoMinutes: mode == 'YMDhms' || mode == 'YMDhm' || mode == 'hm',
         isShowSeconds: mode == 'YMDhms',
       })
     },

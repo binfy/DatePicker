@@ -10,6 +10,7 @@ Page({
     date: new Date().getTime(),
 
     yMDhms: "",
+    yMDhm: "",
     yMD: "",
     mD: "",
     hm: "",
@@ -49,6 +50,15 @@ Page({
 
         break;
       }
+      case "YMDhm":
+        {
+          this.setData({
+
+            yMDhm: dateUtils.formatLongTime(date, "Y-M-D h:m")
+          })
+
+          break;
+        }
       case "YMD":
         {
           this.setData({
@@ -83,6 +93,14 @@ Page({
       isShowPicker: true,
       mode:"YMDhms",
       data: { type: "YMDhms"}
+    })
+  },
+  onYMDhm: function (e) {
+
+    this.setData({
+      isShowPicker: true,
+      mode: "YMDhm",
+      data: { type: "YMDhm" }
     })
   },
   onYMD: function (e) {
